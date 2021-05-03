@@ -79,4 +79,8 @@ client.connect(err => {
     })
 });
 
+app.get('/', (req, res) => {
+    res.send("it's working");
+})
+
 app.listen(process.env.PORT || port)
