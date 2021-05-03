@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 
 
-var serviceAccount = require("./config/burj-al-arab-4e76e-firebase-adminsdk-b5f8x-b4fe3b0d62.json");
+// var serviceAccount = require("./config/burj-al-arab-4e76e-firebase-adminsdk-b5f8x-b4fe3b0d62.json");
 admin.initializeApp({
     credential: admin.credential.cert({
         type: process.env.JWT_TYPE,
